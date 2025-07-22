@@ -41,8 +41,8 @@
 - [ ] 0.0 Content Creation & Course Materials Development
   - [ ] 0.1 Create Module 1: Foundation & Context content
     - [x] 0.1.1 Write main article covering cryptocurrency basics, history, and financial professional relevance
-    - [ ] 0.1.2 Create video transcript matching the main article content
-    - [ ] 0.1.3 Write short form summary/trailer transcript (2-3 minutes)
+    - [x] 0.1.2 Create video transcript matching the main article content
+    - [x] 0.1.3 Write short form summary/trailer transcript (2-3 minutes)
     - [ ] 0.1.4 Design brief for images/graphics (timeline of crypto evolution, comparison charts of traditional vs crypto finance)
     - [ ] 0.1.5 Create key terminology glossary with definitions
     - [ ] 0.1.6 Develop case studies relevant to CPAs and CFOs
