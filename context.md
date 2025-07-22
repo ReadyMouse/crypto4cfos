@@ -1,0 +1,3 @@
+I'm thinking a $300-500 course with videos, and text.  On basics of crypto, not to get rich quick, to understand the landscape. Aimed roughly at CPA, CFOs, other tech financial people who just need to on-ramp into the crypto world.
+
+Have AI build the written docs, the transcripts for the video, transcripts for trailers/short form content. (I'll build the diagrams). Then also have AI cross-reference facts, find holes, find objections. Find common course hosting platforms and costing OR build a Wordpress or similar site with pages, to hold the marketing pages, the Member areas to unlock the blogs/articles plus the videos. Need a way to collect payments as well. Build a marketing strategy, write social media posts, identity advertising places.  
