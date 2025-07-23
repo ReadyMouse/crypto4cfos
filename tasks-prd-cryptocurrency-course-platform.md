@@ -28,6 +28,10 @@
 - `robots.txt` - SEO configuration for search engine crawling
 - `sitemap.xml` - XML sitemap for SEO optimization
 - `module-4-trading-exchanges/04-institutional-adoption-case-studies.md` - Institutional adoption case studies for cryptocurrency trading and exchanges
+- `module-2-blockchain/04-interactive-smart-contract-examples.md` - Interactive smart contract examples and applications for financial professionals
+- `module-2-blockchain/05-practice-exercises-blockchain-concepts.md` - Practice exercises and assessment questions for blockchain concepts
+- `module-3-cryptocurrency-types/04-risk-assessment-frameworks.md` - Comprehensive risk assessment frameworks for each cryptocurrency type
+- `module-3-cryptocurrency-types/05-investment-decision-trees.md` - Investment decision trees and portfolio allocation strategies for financial professionals
 - `module-4-trading-exchanges/05-regulatory-compliance-checklists.md` - Regulatory compliance checklists for cryptocurrency trading and exchanges
 - `module-4-trading-exchanges/06-due-diligence-frameworks.md` - Due diligence frameworks for evaluating cryptocurrency services
 - `module-5-defi/04-business-implementation-case-studies.md` - Business implementation case studies for DeFi and cryptocurrency applications
@@ -42,6 +46,13 @@
 - `module-7-investment-strategies/07-risk-management-frameworks.md` - Risk management frameworks for cryptocurrency investments
 - `module-8-future-implications/04-ongoing-learning-resources.md` - Ongoing learning resource lists for cryptocurrency education
 - `course-wide-supporting-materials/01-comprehensive-course-syllabus.md` - Comprehensive course syllabus and learning objectives for cryptocurrency fundamentals course
+- `course-wide-supporting-materials/02-course-introduction-welcome.md` - Course introduction and welcome materials for cryptocurrency fundamentals course
+- `course-wide-supporting-materials/03-course-conclusion-next-steps.md` - Course conclusion and next steps guide for cryptocurrency fundamentals course
+- `course-wide-supporting-materials/04-comprehensive-glossary.md` - Comprehensive glossary of cryptocurrency and financial terms for the course
+- `course-wide-supporting-materials/05-assessment-questions-quizzes.md` - Assessment questions and quizzes for each module with answer keys and scoring guides
+- `course-wide-supporting-materials/06-certificate-of-completion-template.md` - Professional certificate of completion template with design specifications and verification system
+- `course-wide-supporting-materials/07-marketing-copy-course-promotion.md` - Comprehensive marketing copy and promotional materials for course promotion to financial professionals
+- `course-wide-supporting-materials/08-faq-document-common-concerns.md` - Comprehensive FAQ document addressing common concerns and questions from financial professionals
 
 ### Notes
 
@@ -66,14 +77,14 @@
     - [x] 0.2.1 Write main article explaining blockchain mechanics, mining, and smart contracts
     - [x] 0.2.2 Create video transcript matching the main article content
     - [x] 0.2.3 Write short form summary/trailer transcript (2-3 minutes)
-    - [ ] 0.2.4 Develop interactive examples of smart contract applications
-    - [ ] 0.2.5 Create practice exercises for blockchain concepts
+    - [x] 0.2.4 Develop interactive examples of smart contract applications
+    - [x] 0.2.5 Create practice exercises for blockchain concepts
   - [x] 0.3 Create Module 3: The Cryptocurrency Taxonomy content
     - [x] 0.3.1 Write main article covering Bitcoin, stablecoins, altcoins, memecoins, privacy coins, and utility tokens
     - [x] 0.3.2 Create video transcript matching the main article content
     - [x] 0.3.3 Write short form summary/trailer transcript (2-3 minutes)
-    - [ ] 0.3.4 Develop risk assessment frameworks for each crypto type
-    - [ ] 0.3.5 Create investment decision trees for financial professionals
+    - [x] 0.3.4 Develop risk assessment frameworks for each crypto type
+    - [x] 0.3.5 Create investment decision trees for financial professionals
   - [x] 0.4 Create Module 4: Major Players & Ecosystem content
     - [x] 0.4.1 Write main article covering exchanges, wallets, institutional players, regulatory bodies, and DeFi protocols
     - [x] 0.4.2 Create video transcript matching the main article content
@@ -110,14 +121,14 @@
     - [x] 0.8.4 Create ongoing learning resource lists
   - [ ] 0.9 Create Course-Wide Supporting Materials
     - [x] 0.9.1 Develop comprehensive course syllabus and learning objectives
-    - [ ] 0.9.2 Create course introduction and welcome materials
-    - [ ] 0.9.3 Write course conclusion and next steps guide
-    - [ ] 0.9.5 Create glossary of all crypto and financial terms used
-    - [ ] 0.9.6 Develop assessment questions and quizzes for each module
-    - [ ] 0.9.7 Create certificate of completion template
-    - [ ] 0.9.8 Develop marketing copy for course promotion
-    - [ ] 0.9.9 Create FAQ document addressing common concerns
-    - [ ] 0.9.10 Develop instructor notes and presentation guides
+    - [x] 0.9.2 Create course introduction and welcome materials
+    - [x] 0.9.3 Write course conclusion and next steps guide
+    - [x] 0.9.5 Create glossary of all crypto and financial terms used
+    - [x] 0.9.6 Develop assessment questions and quizzes for each module
+    - [x] 0.9.7 Create certificate of completion template
+    - [x] 0.9.8 Develop marketing copy for course promotion
+    - [x] 0.9.9 Create FAQ document addressing common concerns
+    - [ ] 0.9.10 Develop instructor notes and presentation guides (SKIPPED)
 
 - [ ] 1.0 WordPress Site Setup & Foundation
   - [ ] 1.1 Install and configure WordPress with latest version

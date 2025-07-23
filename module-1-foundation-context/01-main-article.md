@@ -13,29 +13,42 @@
 
 ## Introduction
 
-Cryptocurrency represents one of the most significant technological and financial innovations of the 21st century. For financial professionals—CPAs, CFOs, financial analysts, and advisors—understanding cryptocurrency is no longer optional. Whether you're advising clients on tax implications, evaluating investment opportunities, or ensuring regulatory compliance, cryptocurrency knowledge has become essential to your professional toolkit.
+Cryptocurrency represents one of the most significant financial innovations of the 21st century. For financial professionals—CPAs, CFOs, financial analysts, and advisors—understanding cryptocurrency is no longer optional. Whether you're advising clients on tax implications, evaluating investment opportunities, or ensuring regulatory compliance, cryptocurrency knowledge has become essential to your professional toolkit.
 
 This module provides the foundational understanding you need to navigate the cryptocurrency landscape with confidence and professional competence.
 
 ## What is Cryptocurrency?
 
-At its core, cryptocurrency represents a fundamental reimagining of what money can be. Unlike the physical bills and coins we're familiar with, or even the digital representations of traditional banking, cryptocurrency exists purely in the digital realm, secured by advanced mathematics rather than government backing or institutional trust.
+At its core, cryptocurrency represents a fundamental reimagining of what money can be. It started with the idea of digital cash. "Cash is king" 
 
-The term "cryptocurrency" itself reveals much about its nature. The "crypto" portion refers to cryptography—the mathematical techniques that secure the system and ensure that only the rightful owner can spend their digital assets. The "currency" aspect indicates its intended use as a medium of exchange, though as we'll explore throughout this course, cryptocurrencies have evolved far beyond simple payment systems.
+Consider that cash 2 very nice features: 
+1. No Double Spending (can't give the same bill to someone twice)
+1. Peer-to-Peer, Instant, **Anonymous** Transcation
 
-What makes cryptocurrency revolutionary is its decentralized nature. Traditional financial systems rely on central authorities—banks, governments, payment processors—to validate transactions and maintain trust. Cryptocurrency eliminates these intermediaries by distributing the responsibility across a network of computers, each running the same software and following the same rules. This creates a system where trust is established through mathematics and consensus rather than institutional reputation.
+Now in the digital space, cryptocurrency was designed to remove only the in-person aspect of cash. To sent money, to anyone, at anytime, regardless of location. While Venmo, Cashapp, etc do this, as well as wire transfers and Zelle, it requires an centralized intermediary. It also requires that we trust Venmo not to steal the money, skim half pennires and to actually handle it properly. We also have to trust CashApp not to not "mint" fake digital money into an account. 
 
-When you make a cryptocurrency transaction, you're essentially broadcasting a message to a global network of computers. This message contains the details of your transfer: who you're sending money to, how much, and proof that you have the right to spend those funds. The network then works together to verify this transaction using complex mathematical algorithms, ensuring that you can't spend money you don't have and that you can't spend the same money twice.
+Enter crypto: The term "cryptocurrency" itself reveals much about its nature. The "crypto" portion refers to cryptography—the mathematical techniques that secure the system and ensure that only the rightful owner can spend their digital assets. It is the mathematical backbone that solves the Double-Spend problem. The "currency" aspect indicates its intended use as a medium of exchange (digital cash). But just as humans have evolved from salt as currency to coins and papermoney, cryptocurrencies have evolved far beyond simple payment systems.
 
-Once verified, your transaction becomes part of a permanent, unchangeable record—the blockchain. Think of the blockchain as a digital ledger that's maintained by thousands of computers simultaneously, each holding an identical copy. This distributed approach makes the system incredibly secure: to alter a single transaction, an attacker would need to control more than half of the entire network, a feat that becomes exponentially more difficult as the network grows.
+What makes cryptocurrency revolutionary is its decentralized nature. Traditional financial systems rely on central authorities—banks, governments, payment processors—to validate transactions and maintain trust. Cryptocurrency eliminates these intermediaries by distributing the responsibility across a network of computers, each running the same software and following the same rules. This creates a system where trust is established through mathematics and consensus rather than institutional reputation. 
 
-The beauty of this system lies in its simplicity and transparency. Every transaction is visible to everyone on the network, yet the identities of the participants remain pseudonymous. You can see that a certain amount moved from one address to another, but you can't necessarily know who owns those addresses unless they choose to reveal themselves. This creates a unique balance between transparency and privacy that traditional financial systems struggle to achieve.
+>[!Note]
+> An anti-state anarchist might point out that "Consensus" and "Collusion" are two-sides to the same coin. ;)
+
+At the core of crypto is the blockchain. Think of the blockchain as a digital ledger, a database, that's maintained by thousands of computers simultaneously, each holding an identical copy. This distributed approach makes the system incredibly secure: to alter a single transaction, an attacker would need to control more than half of the entire network, a feat that becomes exponentially more difficult as the network grows.
+
+When you make a Bitcoin transaction, you're essentially broadcasting a message to a global network of computers. This message contains the details of your transfer: who you're sending money to, how much, and proof that you have the right to spend those funds. The network then works together to verify this transaction using complex mathematical algorithms, ensuring that you can't spend money you don't have and that you can't spend the same money twice. Once verified, your transaction becomes part of a permanent, unchangeable record — **the blockchain**. 
+
+When you make a Zcash transaction, you've achieved the digital cash dream. Sender and receiver identity is private, the amount is private, the balance of each account before and after the transaction is private. Using Zero-Knowledge proofs, mathematical guarantees, the network of computers validates the transaction. This is the vision of peer-to-peer, private, digital cash.
+
+From salt and copper coins, we made paper cash, checks, credit cards, stocks, bondes, mortgages, mutal funds, ETFs, sub-prime mortgages, mortgage-backed securities and credit default swaps. Built on gold, humans have created all sorts of assests and derivatives. Cyrpto is no different.
+
+Let's explore more!
 
 ## Brief History: From Bitcoin to Today's Ecosystem
 
-The story of cryptocurrency begins with a single email sent to a cryptography mailing list in October 2008. The message contained a link to a nine-page academic paper titled "Bitcoin: A Peer-to-Peer Electronic Cash System," authored by someone calling themselves Satoshi Nakamoto. To this day, the true identity of Bitcoin's creator remains unknown—a fitting mystery for a system built on pseudonymity.
+The story of cryptocurrency begins with a single email sent to a cryptography mailing list in October 2008. The message contained a link to a nine-page academic paper titled ["Bitcoin: A Peer-to-Peer Electronic Cash System,"](https://bitcoin.org/bitcoin.pdf) authored by someone calling themselves Satoshi Nakamoto. To this day, the true identity of Bitcoin's creator remains unknown — a fitting mystery for a system built on pseudonymity.
 
-The timing of Bitcoin's creation was no coincidence. The financial crisis of 2008 had exposed fundamental weaknesses in the traditional banking system, leading many to question the wisdom of placing complete trust in centralized financial institutions. Satoshi's whitepaper proposed a radical alternative: a payment system that could operate without any trusted third parties, where transactions would be verified by a network of computers rather than banks.
+The timing of Bitcoin's creation was no coincidence. The financial crisis of 2008 had exposed fundamental weaknesses in the traditional banking system, leading many to question the wisdom of placing complete trust in centralized financial institutions. Satoshi's whitepaper proposed a radical alternative: a payment system that could operate without any trusted third parties, where transactions would be verified by a network of computers rather than banks. 
 
 On January 3, 2009, the Bitcoin network went live with the creation of the "genesis block"—the first block in what would become the longest-running blockchain in history. Embedded in this first block was a subtle message: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks." This reference to a headline from The Times of London served as both a timestamp and a commentary on the traditional financial system that Bitcoin was designed to replace.
 
