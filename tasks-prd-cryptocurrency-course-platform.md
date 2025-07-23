@@ -51,7 +51,7 @@
     - [x] 0.2.1 Write main article explaining blockchain mechanics, mining, and smart contracts
     - [x] 0.2.2 Create video transcript matching the main article content
     - [x] 0.2.3 Write short form summary/trailer transcript (2-3 minutes)
-    - [ ] 0.2.4 Design brief for images/graphics (blockchain visualization, mining process diagrams, smart contract flowcharts)
+    - [x] 0.2.4 Design brief for images/graphics (blockchain visualization, mining process diagrams, smart contract flowcharts)
     - [ ] 0.2.5 Create technical diagrams showing blockchain structure
     - [ ] 0.2.6 Develop interactive examples of smart contract applications
     - [ ] 0.2.7 Create practice exercises for blockchain concepts
