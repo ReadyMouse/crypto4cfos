@@ -39,14 +39,14 @@
 ## Tasks
 
 - [ ] 0.0 Content Creation & Course Materials Development
-  - [ ] 0.1 Create Module 1: Foundation & Context content
+  - [x] 0.1 Create Module 1: Foundation & Context content
     - [x] 0.1.1 Write main article covering cryptocurrency basics, history, and financial professional relevance
     - [x] 0.1.2 Create video transcript matching the main article content
     - [x] 0.1.3 Write short form summary/trailer transcript (2-3 minutes)
-    - [ ] 0.1.4 Design brief for images/graphics (timeline of crypto evolution, comparison charts of traditional vs crypto finance)
-    - [ ] 0.1.5 Create key terminology glossary with definitions
-    - [ ] 0.1.6 Develop case studies relevant to CPAs and CFOs
-    - [ ] 0.1.7 Create practice exercises and comprehension questions
+    - [x] 0.1.4 Design brief for images/graphics (timeline of crypto evolution, comparison charts of traditional vs crypto finance)
+    - [x] 0.1.5 Create key terminology glossary with definitions
+    - [x] 0.1.6 Develop case studies relevant to CPAs and CFOs
+    - [x] 0.1.7 Create practice exercises and comprehension questions
   - [ ] 0.2 Create Module 2: Blockchain Technology Demystified content
     - [ ] 0.2.1 Write main article explaining blockchain mechanics, mining, and smart contracts
     - [ ] 0.2.2 Create video transcript matching the main article content
