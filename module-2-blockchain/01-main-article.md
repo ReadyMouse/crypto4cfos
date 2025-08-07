@@ -15,23 +15,28 @@
 
 ## Introduction
 
-While Module 1 introduced you to the broader cryptocurrency landscape, Module 2 dives deep into the foundational technology that makes it all possible: blockchain. Understanding blockchain technology is essential for financial professionals because it's not just the foundation of cryptocurrency—it's rapidly becoming a transformative force across multiple industries, from finance and supply chain management to healthcare and government services.
-
-This module will demystify blockchain technology, explaining how it works, why it's secure, and how it's creating new opportunities and challenges for financial professionals. We'll explore the mechanics behind blockchain, the various consensus mechanisms that keep networks secure, and the revolutionary potential of smart contracts.
+While Module 1 introduced you to the basics of crypto, Module 2 dives deep into the foundational technology that makes it all possible: blockchain. Understanding blockchain technology is essential because it's not just the foundation of cryptocurrency—it's rapidly becoming a transformative force across multiple industries, from finance and supply chain management to healthcare and government services.
 
 ## What is Blockchain?
 
-At its most fundamental level, a blockchain is a type of database—but it's a database with some revolutionary characteristics that make it unlike any traditional data storage system. The term "blockchain" comes from its structure: data is stored in blocks, and these blocks are linked together in a chain using cryptographic techniques.
+At its most fundamental level, a blockchain is an immutable database, a ledger that can't be changed or altered. This is exactly what we want when it comes to money, a records system taht no one can tamper with, go back and change a transcation, or arbitarily add zeros to an account balance. The term "blockchain" comes from its structure: data is stored in blocks, and these blocks are linked together in a chain using cryptographic techniques.
 
 Think of a blockchain as a digital ledger that's maintained by thousands of computers simultaneously, each holding an identical copy. When a new transaction occurs, it's broadcast to the entire network. The network then works together to verify the transaction and add it to a new block. Once a block is full of transactions, it's cryptographically linked to the previous block, creating an unbreakable chain that goes back to the very first block—the genesis block.
 
-What makes blockchain revolutionary is its combination of three key properties: decentralization, transparency, and immutability. Unlike traditional databases that are controlled by a single entity, blockchains are distributed across a network of computers, with no single point of control. Every transaction is visible to everyone on the network, creating unprecedented transparency. And once data is recorded on the blockchain, it cannot be altered or deleted—it becomes permanent and immutable.
+What makes blockchain revolutionary is its combination of three key properties:
+1. Decentralization
+1. Transparency
+1. Immutability
+
+Unlike traditional databases that are controlled by a single entity, blockchains are distributed across a network of computers, with no single point of control. Every transaction is visible to everyone on the network, creating unprecedented transparency. And once data is recorded on the blockchain, it cannot be altered or deleted. It becomes permanent and immutable.
 
 ## How Blockchain Works
 
-To understand how blockchain works, let's walk through the process of a typical transaction. Imagine Alice wants to send 1 Bitcoin to Bob. Here's what happens:
+To understand how blockchain works, let's walk through the process of a typical transaction. Imagine Alice wants to send 1 Bitcoin to Jared. Here's what happens:
 
-First, Alice creates a transaction using her digital wallet. This transaction includes Bob's public address (like an email address), the amount she wants to send, and a digital signature that proves she owns the Bitcoin she's trying to spend. The digital signature is created using Alice's private key—a secret number that only she knows.
+First, Alice creates a transaction using her digital wallet. This transaction includes Jared's public address (like an email address), the amount she wants to send, and a digital signature that proves she owns the Bitcoin she's trying to spend. The digital signature is created using Alice's private key—a secret number that only she knows.
+
+[!Note] Just like an email address is public, so are wallet addresses. It's only anonoymous so long as the link between real human and address is private. Hence its often refered to as pseudoanonimity.  
 
 Once Alice submits the transaction, it's broadcast to the entire Bitcoin network. Thousands of computers around the world receive this transaction and begin the verification process. They check several things: Does Alice actually own the Bitcoin she's trying to spend? Has she already spent this Bitcoin elsewhere? Is the transaction properly formatted?
 
@@ -39,7 +44,7 @@ If the transaction passes all these checks, it gets added to a pool of pending t
 
 When a miner successfully creates a new block, it includes Alice's transaction along with many others. The block is then cryptographically linked to the previous block in the chain, and the entire network updates their copies of the blockchain to include this new block. At this point, Alice's transaction is confirmed and becomes part of the permanent record.
 
-The beauty of this system is that it eliminates the need for trust in a central authority. Instead of relying on a bank to verify and record the transaction, the entire network works together to ensure accuracy and security. This distributed approach makes the system incredibly robust—there's no single point of failure, and no single entity can control or manipulate the network.
+The beauty of this system is that it eliminates the need for trust in a central authority. Instead of relying on a bank to verify and record the transaction, the entire network works together to ensure accuracy and security. This distributed approach makes the system incredibly robust as there's no single point of failure, and no single entity can control or manipulate the network.
 
 ## Mining and Consensus Mechanisms
 
@@ -49,9 +54,11 @@ Let's break down how mining works in the Bitcoin network. Every 10 minutes or so
 
 The network creates a mathematical puzzle that's extremely difficult to solve but easy to verify. This puzzle involves finding a number (called a nonce) that, when combined with the block's data and run through a cryptographic hash function, produces a result that meets certain criteria. The criteria are designed to make the puzzle so difficult that it takes significant computational power to solve.
 
-Miners around the world compete to solve this puzzle first. They run their computers at full capacity, trying different nonces until one of them finds the solution. The first miner to solve the puzzle gets to create the new block, add it to the blockchain, and receive a reward in the form of newly created Bitcoin plus any transaction fees.
+Miners around the world compete to solve this puzzle first. They run their computers at full capacity, trying different nonces until one of them finds the solution. The first miner to solve the puzzle gets to create the new block, add it to the blockchain, and receive a reward in the form of !! newly created Bitcoin !! plus any transaction fees.
 
-This system serves several important purposes. First, it creates new Bitcoin in a controlled, predictable way. Second, it secures the network by making it extremely expensive to attack. To successfully attack the Bitcoin network, an attacker would need to control more than 50% of the total mining power—a feat that would require billions of dollars worth of specialized hardware.
+This system serves several important purposes. First, it creates new Bitcoin in a controlled, predictable way. Second, it secures the network by making it extremely expensive to attack. To successfully attack the Bitcoin network, an attacker would need to control more than 51% of the total mining power. This feat that would require billions of dollars worth of specialized hardware.
+
+!! But wait: Aren't they just mining new Bitcoin every 10 minutes? That sounds like a serious hyperinflation risk! Yes and no. Each transcation also adds a gas fee, a processing fee, if you will. This is paid by the sender in the transcation and the gas fee is literaly burned, destroyed, exists no more. The gas fee destruction mitigates the hyperinflation risk, but the potential for some inflation does exist.
 
 However, Proof of Work has significant drawbacks, particularly its environmental impact. The computational power required for mining consumes enormous amounts of electricity, leading to concerns about sustainability. This has led to the development of alternative consensus mechanisms.
 
@@ -61,13 +68,13 @@ Other consensus mechanisms include Delegated Proof of Stake, where token holders
 
 ## Public vs Private Blockchains
 
-Not all blockchains are created equal, and understanding the differences between public and private blockchains is crucial for financial professionals. The choice between public and private blockchains can have significant implications for business applications, regulatory compliance, and security.
+Not all blockchains are created equal, and understanding the differences between public and private blockchains is crucial. The choice between public and private blockchains can have significant implications for business applications, regulatory compliance, and security.
 
 Public blockchains, like Bitcoin and Ethereum, are open to anyone. Anyone can download the software, join the network, and participate in the consensus process. These networks are truly decentralized, with no single entity in control. They offer maximum transparency and censorship resistance, but they also have limitations in terms of scalability and privacy.
 
 Private blockchains, on the other hand, are controlled by a single organization or consortium. Access is restricted to authorized participants, and the consensus process is typically much simpler and faster. Private blockchains can offer better performance and privacy, but they sacrifice some of the decentralization and transparency that make public blockchains revolutionary.
 
-For financial professionals, the choice between public and private blockchains often comes down to the specific use case. If you're building a system that needs to be completely transparent and resistant to censorship—like a public registry of land titles—a public blockchain might be appropriate. If you're building an internal system for tracking supply chain data, a private blockchain might be more suitable.
+For financial professionals, the choice between public and private blockchains often comes down to the specific use case. If you're building a system that needs to be completely transparent and resistant to censorship—like a public registry of land titles, a public blockchain might be appropriate. If you're building an internal system for tracking supply chain data, a private blockchain might be more suitable.
 
 Hybrid approaches are also emerging, where organizations use private blockchains for internal operations but anchor important data to public blockchains for additional security and transparency. This approach combines the performance benefits of private blockchains with the security benefits of public blockchains.
 
