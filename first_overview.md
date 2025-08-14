@@ -1,62 +1,79 @@
-Cryptocurrency Fundamentals for Financial Professionals
-Module 1: Foundation & Context
+# Cryptocurrency Fundamentals for Financial Professionals
+## Module 0: Crypto is Here
+- You need to know it
+- Responsibility to your future clients
+- We need you, because you understand market manipulation
+- technical reasoning of risk and investments
+- help prevent "2008" of crypto
+- Dreaming about a potential future adoption (solarpunk)
+- Finanical equity
+- VCs and funding opportunities ($#M in crypto VCs)
+- generalist and specailist: educator, programer, analyst
 
-What is cryptocurrency? - Think of it like digital cash that uses cryptography instead of banks for security
-Brief history: From Bitcoin's 2009 launch to today's ecosystem
-Why financial professionals need to understand crypto: Regulatory compliance, client questions, investment considerations
-Key terminology glossary
+## Module 1: Foundation & Context
 
-Module 2: Blockchain Technology Demystified
+- What is cryptocurrency? - Think of it like digital cash that uses cryptography instead of banks for security
+- Brief history: From Bitcoin's 2009 launch to today's ecosystem
+- Why financial professionals need to understand crypto: Regulatory compliance, client questions, investment considerations
+- Key terminology glossary
 
-How blockchain works - Like a shared ledger that everyone can see but no one can alter without consensus
-Mining and validation - Similar to how banks verify transactions, but distributed
-Public vs private blockchains
-Smart contracts - Self-executing agreements (like vending machines for complex transactions)
+## Module 2: Blockchain Technology Demystified
 
-Module 3: The Cryptocurrency Taxonomy
+- How blockchain works - Like a shared ledger that everyone can see but no one can alter without consensus
+- Mining and validation - Similar to how banks verify transactions, but distributed
+- Public vs private blockchains
+- Smart contracts - Self-executing agreements (like vending machines for complex transactions)
 
-Bitcoin (BTC): Digital gold - store of value, limited supply
-Stablecoins: Digital dollars - pegged to fiat currencies for stability
-Altcoins: Alternative cryptocurrencies with specific use cases
-Memecoins: Speculative tokens driven by community/culture
-Privacy coins: Digital cash with enhanced anonymity features
-Utility tokens: Access keys to specific blockchain services
+## Module 3: The Cryptocurrency Taxonomy
 
-Module 4: Major Players & Ecosystem
+- Layer 0, 1 vs 2 Technologies - major players
+- Tokens vs Coins - tokenomics, the economics of coins and tokens
+- Bitcoin (BTC): Digital gold - store of value, limited supply
+- Stablecoins: Digital dollars - pegged to fiat currencies for stability
+- Altcoins: Alternative cryptocurrencies with specific use cases
+- Memecoins: Speculative tokens driven by community/culture
+- Privacy coins: Digital cash with enhanced anonymity features
+- Utility tokens: Access keys to specific blockchain services
 
-Exchanges: Coinbase, Binance, Kraken (the "stock exchanges" of crypto)
-Wallets: Custodial vs non-custodial storage solutions
-Institutional players: MicroStrategy, Tesla, payment processors
-Regulatory bodies: SEC, CFTC, Treasury perspectives
-DeFi protocols: Decentralized finance applications
+## Module 4: Major Players & Ecosystem
 
-Module 5: Use Cases & Applications
+- Exchanges: Coinbase, Binance, Kraken (the "stock exchanges" of crypto)
+- Institutional players: MicroStrategy, Tesla, payment processors
+- Blockchains of Note: BTC, ETH, Monero, ZEC, NEAR, AI3
+- Regulatory bodies: SEC, CFTC, Treasury perspectives, audit firms
+- DeFi protocols: Decentralized finance applications
 
-Currency usage: Cross-border payments, remittances, daily transactions
-Investment usage: Portfolio diversification, inflation hedging
-Business applications: Supply chain, smart contracts, tokenization
-Institutional adoption: Treasury management, payment rails
+## Module 5: Use Cases & Applications
 
-Module 6: Risk Assessment & Compliance
+- Currency usage: Cross-border payments, remittances, daily transactions
+- Investment + Income: Portfolio diversification, staking, mining, farming, liquidity pools, lending, crypto-backed mortgages
+- Business applications: Supply chain, smart contracts, tokenization
+- Institutional adoption: Treasury management, payment rails
+- DAOs: 
+- Abuse + Misuse: drug markets, scams, fraud, money laundering
 
-Volatility and market risks
-Regulatory landscape and compliance requirements
-Tax implications: Capital gains, reporting requirements
-Security considerations: Custody, private keys, exchange risks
-Due diligence frameworks
+## Module 6: Taxes, Risk & Compliance
 
-Module 7: Financial Analysis & Valuation
+- Volatility and market risks
+- Laws, regulatory landscape, and compliance requirements
+- Major law cases + outcomes: Tornado Cash, abuse/misuse
+- Tax implications: Capital gains, reporting requirements
+- Security considerations: Custody, private keys, exchange risks
 
-Fundamental analysis approaches
-Technical analysis basics
-Portfolio integration considerations
-Risk management strategies
+## Module 7: Future Outlook & Emerging Trends
 
-Module 8: Future Outlook & Emerging Trends
+- Central Bank Digital Currencies (CBDCs)
+- Institutional adoption trends
+- Technology evolution
+- Dreaming about a potential future adoption
 
-Central Bank Digital Currencies (CBDCs)
-Regulatory developments
-Institutional adoption trends
-Technology evolution
+## Add-on Module 8: AI and Machine Learning
+
+- Brief History 
+- AI/ML fundamnentals
+- AI for Blockchain: deAI, agents
+- AI for auditing, automation
+- overview of tools
+- Dreaming about a potential future adoption
 
 Each module would include video explanations, infographics showing relationships between concepts, case studies relevant to financial professionals, and practical exercises. The course would emphasize understanding over speculation, with real-world applications for CPAs and CFOs.
