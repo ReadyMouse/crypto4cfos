@@ -32,3 +32,7 @@ Kraken grants are awarded without obligation.
 Grantees will have the opportunity to submit quarterly updates on the impact of their work, discuss their work at Kraken events and on Kraken social media.
 
 If you're interested in applying for an open-source grant, please reach out via email to grants@kraken.com by clicking the link below. Feel free to include materials about your project and/or organization, or you can simply reach out to start a conversation.
+
+## Thoughts
+- adding a section on memes/tropes/"HODL" and "BUIDL", cryptoculture
+- major conferences + publications 
