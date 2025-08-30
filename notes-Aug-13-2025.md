@@ -34,5 +34,6 @@ Grantees will have the opportunity to submit quarterly updates on the impact of 
 If you're interested in applying for an open-source grant, please reach out via email to grants@kraken.com by clicking the link below. Feel free to include materials about your project and/or organization, or you can simply reach out to start a conversation.
 
 ## Thoughts
-- adding a section on memes/tropes/"HODL" and "BUIDL", cryptoculture
-- major conferences + publications 
+- https://github.com/p2pu/course-in-a-box?ref=jekyll-themes.com
+
+
