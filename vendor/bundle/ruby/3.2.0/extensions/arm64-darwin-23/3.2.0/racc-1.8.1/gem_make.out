@@ -1,0 +1,19 @@
+current directory: /Users/mouse/src/crypto4cfos/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/mouse/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mouse/src/crypto4cfos/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250830-43738-grggtr sitelibdir\=./.gem.20250830-43738-grggtr clean
+
+current directory: /Users/mouse/src/crypto4cfos/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250830-43738-grggtr sitelibdir\=./.gem.20250830-43738-grggtr
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/mouse/src/crypto4cfos/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250830-43738-grggtr sitelibdir\=./.gem.20250830-43738-grggtr install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250830-43738-grggtr/racc
+
+current directory: /Users/mouse/src/crypto4cfos/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250830-43738-grggtr sitelibdir\=./.gem.20250830-43738-grggtr clean

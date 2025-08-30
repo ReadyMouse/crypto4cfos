@@ -1,0 +1,4 @@
+title: Course-in-a-Box
+description: An open-source project for creating online courses, built by <a href="https://www.p2pu.org">P2PU</a>
+modules: ["module-0-introduction ", "module-1-foundation-context","module-2-blockchain", "module-3-practical-usage","module-4-cryptocurrency-types", "module-5-trading-exchanges", "module-6-defi","module-7-culture", "module-8-future-implications"]
+
