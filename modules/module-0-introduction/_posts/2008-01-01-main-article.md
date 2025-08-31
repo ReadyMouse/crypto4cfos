@@ -49,7 +49,7 @@ This isn't speculative hype—it's institutional adoption on a massive scale. Th
 
 Consider this: Cryptocurrency represents the natural evolution of money, just as we evolved from salt and copper coins to paper money, checks, credit cards, and digital payments. The technology has matured, the regulatory frameworks are developing, and the market infrastructure is in place. The ship has left port, and you need to decide whether you're on board or walking the plank.
 
-![Pirate's Code](../_images/pirate_code.jpg) 
+![Pirate's Code](../images/pirate_code.jpg) 
 
 ## Your Professional Responsibility
 

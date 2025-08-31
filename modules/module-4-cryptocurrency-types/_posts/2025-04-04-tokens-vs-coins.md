@@ -47,4 +47,4 @@ The classification of digital assets has important regulatory implications:
 - Regulatory treatment often depends on the token's use case and structure
 - May require different compliance procedures than coins
 
-![Example Tech Stack](../_images/example_tech_stack.png)
+![Example Tech Stack](../images/example_tech_stack.png)

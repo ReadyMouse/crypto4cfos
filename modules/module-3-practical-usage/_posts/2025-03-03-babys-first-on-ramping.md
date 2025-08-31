@@ -16,11 +16,11 @@ Both require you to verify your identity through a KYC (Know Your Customer) proc
 
 Option #1: [Kraken](https://www.kraken.com/)
 
-![Screenshot of Kraken](../_images/kraken_screenshot.png)
+![Screenshot of Kraken](../images/kraken_screenshot.png)
 
 Option #2: [CashApp](https://cash.app/)
 
-![Screenshot of CashApp](../_images/cashapp_screenshot.png)
+![Screenshot of CashApp](../images/cashapp_screenshot.png)
 
 Using either of these platforms, buy $200 (or more) of Bitcoin. Just vanilla, nothing special Bitcoin. We'll get to spicier currencies in [Baby's First Currency Swap](#babys-first-currency-swap).
 

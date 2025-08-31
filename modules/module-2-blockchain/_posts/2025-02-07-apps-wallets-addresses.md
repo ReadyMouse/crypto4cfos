@@ -98,4 +98,4 @@ The relationship between wallets and addresses creates the user experience that 
 
 [TODO replace this image with one of my own, tailored for this discussion]
 
-![Explanation of keys and addresses](../_images/keys_addresses.png)
+![Explanation of keys and addresses](../images/keys_addresses.png)

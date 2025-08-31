@@ -2,7 +2,7 @@
 
 Privacy coins are cryptocurrencies designed to provide enhanced privacy and anonymity for users. While Bitcoin transactions are pseudonymous (linked to addresses rather than real identities), they are still traceable on the public blockchain. Would you expose your bank statements and the value of all your investment accounts to the world? Or keep that between you and Fidelity. Privacy coins use various cryptographic techniques to obscure transaction details and provide true anonymity: you, and only you, know your account balance. You and only sex worker Chanelita know what you did last weekend, not Uncle Sam nor Chase Bank or Venmo. (We don't judge. 😉)  
 
-![Zcash vs Monero](../_images/zcash_v_monero.png)
+![Zcash vs Monero](../images/zcash_v_monero.png)
 
 - **Monero (XMR)** is perhaps the most well-known privacy coin, using ring signatures and stealth addresses to hide transaction details.
 - **Zcash (ZEC)** uses zero-knowledge proofs to make transactions provably and mathematically private. 

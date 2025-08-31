@@ -7,7 +7,7 @@ Let's get a real self-custody wallet. I recommend downloading Edge Wallet.
 [Downloading Edge Wallet](https://edge.app/)
 [Setting up the Edge Wallet](https://edge.app/get-started/?af=edge-app-blog)
 
-![Edge Wallet Screenshot](../_images/edge_screenshot.png)
+![Edge Wallet Screenshot](../images/edge_screenshot.png)
 
 Why Edge Wallet? It's designed for privacy, it's easy to use, it allows multiple different types of currencies. They also have a wonderful [set-up guide](https://edge.app/get-started/?af=edge-app-blog). 
 

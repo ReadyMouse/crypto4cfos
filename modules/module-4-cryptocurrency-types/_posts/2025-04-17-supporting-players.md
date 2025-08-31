@@ -1,6 +1,6 @@
 # Supporting Players
 
-![The ecoystem](../_images/the_ecosystem.png)
+![The ecoystem](../images/the_ecosystem.png)
 
 The cryptocurrency ecosystem extends far beyond just the digital assets themselves. A complex network of supporting companies and services has emerged to facilitate, regulate, analyze, and support the broader crypto industry. Understanding these supporting players is crucial for financial professionals as they represent both business opportunities and potential risks for clients.
 
