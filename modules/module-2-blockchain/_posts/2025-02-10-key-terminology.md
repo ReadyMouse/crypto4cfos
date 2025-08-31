@@ -1,6 +1,6 @@
 # Review of Key Terminology
 
-- **51% Attack**: A theoretical attack where a single entity gains control of more than half of a network's mining power or stake.
+- **51% Attack**: An attack technique where a single entity gains control of more than half of a network's mining power or stake.
 
 - **Aggregator Service**: Platforms that connect multiple exchanges through a single interface to find the best rates and enhance security.
 
@@ -22,7 +22,7 @@
 
 - **Mining**: The process of validating transactions and creating new blocks in a blockchain, typically involving solving complex mathematical puzzles.
 
-- **Nonce**: A random number used in mining that, when combined with block data, produces a hash meeting specific criteria.
+- **Nonce**: A random number used only once in mining that, when combined with block data, produces a hash meeting specific criteria.
 
 - **Open Ledger**: A blockchain where all transactions are publicly visible, like Bitcoin's transparent transaction history.
 

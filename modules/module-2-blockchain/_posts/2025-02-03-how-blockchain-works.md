@@ -4,11 +4,11 @@ To understand how blockchain works, let's walk through the process of a typical 
 
 First, Alice creates a transaction using her digital wallet. This transaction includes Jared's public address (like an email address), the amount she wants to send, and a digital signature that proves she owns the Bitcoin she's trying to spend. The digital signature is created using Alice's private key, a secret number that only she knows.
 
-> Just like an email address is public, so are wallet addresses. It's only anonoymous so long as the link between real human and address is private. Hence its often refered to as pseudoanonimity.  
+> Just like an email address is public, so are wallet addresses. It's only anonoymous so long as the link between real human and address is private. Hence it's often refered to as pseudonymity.  
 
-Once Alice submits the transaction, it's broadcast to the entire Bitcoin network. Thousands of computers around the world receive this transaction and begin the verification process. They check several things: Does Alice actually own the Bitcoin she's trying to spend? Has she already spent this Bitcoin elsewhere? Is the transaction properly formatted? Just like Rummikub, they look through the chain of all of Alice's transcations to check that it all tallies up, such that Alice as **unspent transaction outputs (UTXOs)**, aka money on her ledger.
+Once Alice submits the transaction, it's broadcast to the entire Bitcoin network. Thousands of computers around the world receive this transaction and begin the verification process. They check several things: Does Alice actually own the Bitcoin she's trying to spend? Has she already spent this Bitcoin elsewhere? Is the transaction properly formatted? Just like Rummikub, they look through the chain of all of Alice's transcations to check that it all tallies up, such that Alice has **unspent transaction outputs (UTXOs)**, aka money on her ledger.
 
-If the transaction passes all these checks, it gets added to a pool of pending transactions waiting to be included in the next block. Her transcations from her game of Rummikub waits in the queue, usually at most 10minutes, for others to finish their rounds and submit transcation/round scores. This is where mining comes in; miners compete to solve a complex mathematical puzzle, with the winner getting to create the next block of transactions and taking the prize (paid via the transcation fee).
+If the transaction passes all these checks, it gets added to a pool of pending transactions waiting to be included in the next block. Her transcations from her game of Rummikub waits in the queue, usually at most 10 minutes, for others to finish their rounds and submit transaction/round scores. This is where mining comes in; miners compete to solve a complex mathematical puzzle, with the winner getting to create the next block of transactions and taking the prize (paid via the transcation fee).
 
 When a miner successfully creates a new block, it includes Alice's transaction along with many others. The block is then cryptographically linked to the previous block in the chain, and the entire network updates their copies of the blockchain to include this new block. At this point, Alice's transaction is confirmed and becomes part of the permanent record. 
 
@@ -22,10 +22,10 @@ The "Well, actually..." asshole in the group may point out that **unspent transa
 
 You may be thinking, right that's how money works. 
 
-Recall, the skimming half-penny scheme from real life and the movie "Office Space". This requires half-pennies...which doesn't exist in our phsyical world. It's a function of digital calculation, floating decimal points. Etherum is uses an **Account-based model** for it's ledger. Simply: It allow decimal point mathematics. 
+Recall, the skimming half-penny scheme from real life and the movie "Office Space". This requires half-pennies...which doesn't exist in our phsyical world. It's a function of digital calculation, floating decimal points. Etherum uses an **Account-based model** for its ledger. Simply: It allows decimal point mathematics. 
 
-This is purely an implementation detail, and you do not need to know it to functional happily in the cryptocurrency world. You can live happily without ever storing UTXOs in your brainspace. I won't mention it again. 
+This is purely an implementation detail, and you do not need to know it to function happily in the cryptocurrency world. You can live happily without ever storing UTXOs in your brainspace. I won't mention it again. 
 
 UXTOs: Bitcoin, Bitcoin Lightening, DOGECoin, Zcash, ...
 
-Account Model: Etherum, Solan, Tron, ...
+Account Model: Etherum, Solana, Tron, ...
