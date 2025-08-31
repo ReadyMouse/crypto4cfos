@@ -1,7 +1,33 @@
+// Dark mode color variables
+$dark-bg: #1a1a1a;
+$dark-bg-lighter: #2d2d2d;
+$dark-bg-light: #3a3a3a;
+$dark-text: #e0e0e0;
+$dark-text-muted: #b0b0b0;
+$dark-border: #404040;
+$dark-accent: #4a9eff;
+
 body {
-	background-color: white;
+  background-color: $dark-bg;
+  color: $dark-text;
+  
   h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
+    color: $dark-text;
+  }
+  
+  // Links
+  a {
+    color: $dark-accent;
+    
+    &:hover, &:focus {
+      color: lighten($dark-accent, 15%);
+    }
+  }
+  
+  // Text colors
+  p, div, span, li {
+    color: $dark-text;
   }
 }
 
@@ -19,7 +45,7 @@ body {
 }
 
 .nav-item.active, .nav-item:hover {
-  background-color: #707782;
+  background-color: $dark-bg-light;
 	transition: all 0.3s linear;
 }
 
@@ -29,23 +55,23 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #343a40; // Match navbar dark background
-  border: none;
+  background-color: $dark-bg-lighter;
+  border: 1px solid $dark-border;
 }
 
 .dropdown-item {
-  color: rgba(255, 255, 255, 0.8); // Match navbar text color
+  color: $dark-text;
   text-transform: uppercase;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  background-color: #707782; // Match nav-item hover color
-  color: rgba(255, 255, 255, 0.8);
+  background-color: $dark-bg-light;
+  color: $dark-text;
 }
 
 .dropdown-item.active {
-  background-color: #707782; // Match nav-item active color
-  color: rgba(255, 255, 255, 0.8);
+  background-color: $dark-bg-light;
+  color: $dark-text;
 }
 
 .jumbotron {
@@ -86,21 +112,26 @@ blockquote {
   padding: 1.2em;
   margin: 0;
   border: 0;
-  background: #DFF7F4;
+  background: $dark-bg-lighter;
+  color: $dark-text;
   font-style: normal;
   font-size: inherit;
-  border-left: 7px solid $p2pu-light-blue;
+  border-left: 7px solid $dark-accent;
 }
 
 pre {
-  border-left: 7px solid $gray-light;
+  border-left: 7px solid $dark-border;
   padding: 1em;
-  background-color: $gray-lighter;
+  background-color: $dark-bg-lighter;
+  color: $dark-text;
   line-height: 1.2;
 }
 
 code {
-  background-color: $gray-lighter;
+  background-color: $dark-bg-lighter;
+  color: $dark-text;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
 }
 
 section {
@@ -110,7 +141,7 @@ section {
 }
 
 .sidebar {
-	background-color: $gray-lighter;
+	background-color: $dark-bg-lighter;
   font-size: 15px;
   padding-bottom: 10px;
 }
@@ -127,7 +158,7 @@ section {
 }
 
 .sidebar li:hover {
-	background-color: cadetblue;
+	background-color: $dark-accent;
 
 	a:hover, a:focus {
 		text-decoration: none;
@@ -139,28 +170,40 @@ section {
 }
 
 .sidebar li.active {
-	background-color: $white;
+	background-color: $dark-bg-light;
 }
 
 .sidebar li.active a:hover {
-	color: cadetblue;
+	color: $dark-accent;
 }
 
 .sidebar li a {
 	display: block;
   padding: 0.8em 0.5em;
 	text-transform: uppercase;
+	color: $dark-text;
 	@include transition(color, 0.3s, linear);
+	
+	&:hover, &:focus {
+	  color: $dark-text;
+	  text-decoration: none;
+	}
 }
 
 .pagination-section .title {
-	color: $gray;
+	color: $dark-text-muted;
 	line-height: 2;
 }
 
 .pagination-section {
 	.next, .prev {
 		text-transform: uppercase;
+		color: $dark-accent;
+		
+		&:hover {
+		  color: lighten($dark-accent, 15%);
+		  text-decoration: none;
+		}
 	}
 }
 
@@ -186,7 +229,7 @@ section {
 
   .sidebar li:before {
     content: "";
-    border-left: 3px solid #aab0bf;
+    border-left: 3px solid $dark-border;
     position: absolute;
     left: 40px;
     height: 100%;
@@ -215,16 +258,16 @@ section {
   .sidebar li a:before {
     content: "\f005";
     font-family: FontAwesome;
-    color: cadetblue;
+    color: $dark-accent;
     position: absolute;
     left: 29px;
     line-height: 1.7;
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    border: 3px solid $gray;
+    border: 3px solid $dark-border;
     top: 18px;
-    background-color: white;
+    background-color: $dark-bg;
     text-align: center;
     font-size: 0.8em;
   }
@@ -245,17 +288,20 @@ section {
 
 #ghUsername-box {
 	position: relative;
-	background: $gray-lighter;
+	background: $dark-bg-lighter;
 	padding: 10px 20px;
+	border: 1px solid $dark-border;
 
 	.ghUsername-set {
 		@extend .h2;
 		padding: 7px 15px;
 		display: block;
 		margin: 0;
+		color: $dark-text;
 
 		&:hover {
 			text-decoration: none;
+			color: $dark-accent;
 		}
 
 	}
@@ -264,8 +310,8 @@ section {
 		top: 0;
 		right: 0;
     padding: 0 5px;
-    background-color: $gray-darker;
-    color: white;
+    background-color: $dark-bg-light;
+    color: $dark-text;
     font-size: 12pt;
     font-style: italic;
 	}
@@ -274,28 +320,145 @@ section {
 .gh-username-set {
 	input {
 		padding: 4px;
+		background-color: $dark-bg-lighter;
+		color: $dark-text;
+		border: 1px solid $dark-border;
+		
+		&:focus {
+		  background-color: $dark-bg-lighter;
+		  border-color: $dark-accent;
+		  color: $dark-text;
+		}
 	}
 	button {
 		margin-top: -5px;
+		background-color: $dark-accent;
+		border-color: $dark-accent;
+		color: white;
+		
+		&:hover {
+		  background-color: lighten($dark-accent, 10%);
+		  border-color: lighten($dark-accent, 10%);
+		}
 	}
 }
 
 footer {
   padding: 2em 0;
-  background-color: $gray-dark;
-  color: $gray-lighter;
+  background-color: $dark-bg-lighter;
+  color: $dark-text;
   text-align: center;
   font-size: 12pt;
+  border-top: 1px solid $dark-border;
+  
   a {
-    color: #FCFCFC;
+    color: $dark-accent;
     border-bottom: 1px dotted;
     text-decoration: none;
     transition: all 0.3s linear;
   }
   a:hover {
     border: none;
-    color: #FCFCFC;
+    color: lighten($dark-accent, 15%);
     text-decoration: none;
     transition: all 0.3s linear;
   }
+}
+
+// Additional dark mode styles for Bootstrap components
+.table {
+  color: $dark-text;
+  
+  th, td {
+    border-color: $dark-border;
+  }
+  
+  thead th {
+    background-color: $dark-bg-lighter;
+    border-color: $dark-border;
+  }
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba($dark-bg-lighter, 0.5);
+}
+
+.card {
+  background-color: $dark-bg-lighter;
+  border-color: $dark-border;
+  
+  .card-header, .card-footer {
+    background-color: $dark-bg-light;
+    border-color: $dark-border;
+  }
+  
+  .card-body {
+    color: $dark-text;
+  }
+}
+
+.btn-primary {
+  background-color: $dark-accent;
+  border-color: $dark-accent;
+  
+  &:hover {
+    background-color: lighten($dark-accent, 10%);
+    border-color: lighten($dark-accent, 10%);
+  }
+}
+
+.form-control {
+  background-color: $dark-bg-lighter;
+  border-color: $dark-border;
+  color: $dark-text;
+  
+  &:focus {
+    background-color: $dark-bg-lighter;
+    border-color: $dark-accent;
+    color: $dark-text;
+    box-shadow: 0 0 0 0.2rem rgba($dark-accent, 0.25);
+  }
+  
+  &::placeholder {
+    color: $dark-text-muted;
+  }
+}
+
+.alert {
+  border-color: $dark-border;
+  
+  &.alert-info {
+    background-color: rgba($dark-accent, 0.1);
+    border-color: $dark-accent;
+    color: $dark-text;
+  }
+}
+
+// Override main content area white background
+main {
+  background-color: $dark-bg !important;
+}
+
+// Override Bootstrap's bg-white class
+.bg-white {
+  background-color: $dark-bg !important;
+}
+
+// Additional dark mode improvements for various elements
+hr {
+  border-color: $dark-border;
+}
+
+.text-muted {
+  color: $dark-text-muted !important;
+}
+
+// Container and content area fixes
+.container, .container-fluid {
+  background-color: transparent;
+}
+
+.content {
+  background-color: transparent;
+  color: $dark-text;
 }

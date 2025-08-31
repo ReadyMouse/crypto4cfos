@@ -8,6 +8,27 @@
 
   <div class="navbar-collapse collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
+      <!-- Individual menu pages BEFORE modules dropdown -->
+      {% for menu_page in site.data.course.menu_pages_before %}
+        {% assign first_post = site.categories[menu_page]|reverse|first %}
+        {% if first_post %}
+          <!-- This is a module/category -->
+          <li class="nav-item py-2">
+            <a class="nav-link{% if page.categories[1] == menu_page %} active{% endif %}" href="{{ site.baseurl }}{{ first_post.url }}">
+              {{ menu_page }}
+            </a>
+          </li>
+        {% else %}
+          <!-- This is a single page -->
+          <li class="nav-item py-2">
+            <a class="nav-link{% if page.url contains menu_page %} active{% endif %}" href="{{ site.baseurl }}/{{ menu_page }}">
+              {{ menu_page }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      
+      <!-- Modules dropdown -->
       <li class="nav-item dropdown py-2">
         <a class="nav-link dropdown-toggle" href="#" id="modulesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Modules
@@ -21,6 +42,26 @@
           {% endfor %}
         </div>
       </li>
+      
+      <!-- Individual menu pages AFTER modules dropdown -->
+      {% for menu_page in site.data.course.menu_pages_after %}
+        {% assign first_post = site.categories[menu_page]|reverse|first %}
+        {% if first_post %}
+          <!-- This is a module/category -->
+          <li class="nav-item py-2">
+            <a class="nav-link{% if page.categories[1] == menu_page %} active{% endif %}" href="{{ site.baseurl }}{{ first_post.url }}">
+              {{ menu_page }}
+            </a>
+          </li>
+        {% else %}
+          <!-- This is a single page -->
+          <li class="nav-item py-2">
+            <a class="nav-link{% if page.url contains menu_page %} active{% endif %}" href="{{ site.baseurl }}/{{ menu_page }}">
+              {{ menu_page }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
 <!--
       <li class="nav-item py-2">
         <a class="nav-link" href="https://www.p2pu.org/en/" target="_blank">Example Link</a>
