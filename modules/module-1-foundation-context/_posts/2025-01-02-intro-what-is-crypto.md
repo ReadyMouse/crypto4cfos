@@ -14,7 +14,7 @@ At its core, cryptocurrency represents a fundamental reimagining of what money c
 
 Consider that cash has two very nice features: 
 1. No Double Spending
-1. Peer-to-Peer, Instant, **Anonymous** Transcation
+1. Peer-to-Peer, Instant, **Anonymous** Transaction
 
 Now in the digital space, cryptocurrency was designed to remove only the in-person aspect of cash. To send money, to anyone, at anytime, regardless of location. While Venmo, Cashapp, etc do this, as well as wire transfers and Zelle, they require a centralized intermediary. It also requires that we trust Venmo not to steal the money, skim half pennies and to actually handle it properly. We also have to trust CashApp not to "mint" fake digital money into an account. 
 
@@ -30,6 +30,6 @@ Speaking Publically: When you make a Bitcoin transaction, you're essentially bro
 
 Speaking Privately: When you make a Zcash transaction, you've achieved the digital cash dream. Sender and receiver identity is private, the amount is private, the balance of each account before and after the transaction is private. Using Zero-Knowledge proofs, mathematical guarantees, the network of computers validates the transaction. This is the vision of peer-to-peer, private, digital cash.
 
-From salt and copper coins, we made paper cash, checks, credit cards, stocks, bonds, mortgages, mutal funds, ETFs, sub-prime mortgages, mortgage-backed securities and credit default swaps. Built on gold, humans have created all sorts of assests and derivatives. Cyrpto is no different.
+From salt and copper coins, we made paper cash, checks, credit cards, stocks, bonds, mortgages, mutual funds, ETFs, sub-prime mortgages, mortgage-backed securities and credit default swaps. Built on gold, humans have created all sorts of assets and derivatives. Crypto is no different.
 
 Let's explore more!

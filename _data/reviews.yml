@@ -1,0 +1,59 @@
+- name: "Sarah Chen, CPA"
+  title: "Senior Tax Manager, Ernst & Young"
+  review: "This course transformed how I approach crypto questions from clients. The practical modules gave me confidence to offer real guidance instead of just saying 'consult a specialist.' My clients appreciate that I can now speak their language."
+  rating: 5
+  company: "Ernst & Young"
+
+- name: "Marcus Rodriguez, CFO"
+  title: "Chief Financial Officer"
+  review: "Finally, crypto education designed for financial professionals who need practical knowledge, not trading tips. The regulatory compliance section alone was worth the investment. My board is impressed with my newfound crypto competency."
+  rating: 5
+  company: "TechStart Ventures"
+
+- name: "Jennifer Walsh, CFA"
+  title: "Portfolio Manager"
+  review: "The hands-on wallet setup and transaction modules were invaluable. I can now walk clients through the entire process with confidence. This course bridges the gap between traditional finance and digital assets perfectly."
+  rating: 5
+  company: "Wealth Management Group"
+
+- name: "David Kim, CPA"
+  title: "Managing Partner"
+  review: "Our firm was losing clients to competitors offering crypto services. This course equipped our entire team with the knowledge to expand our service offerings. ROI was immediate."
+  rating: 5
+  company: "Kim & Associates"
+
+- name: "Lisa Thompson, CFP"
+  title: "Certified Financial Planner"
+  review: "The DeFi module opened my eyes to entirely new investment vehicles for clients. The risk assessment frameworks are exactly what I needed to evaluate these opportunities professionally."
+  rating: 5
+  company: "Thompson Financial Planning"
+
+- name: "Robert Chen, MBA"
+  title: "Corporate Treasurer"
+  review: "Excellent balance of technical depth and practical application. The corporate training program helped our entire finance team understand crypto's impact on our treasury management strategy."
+  rating: 5
+  company: "Global Manufacturing Corp"
+
+- name: "Amanda Foster, CPA"
+  title: "Tax Director"
+  review: "The tax implications section saved me countless hours of research. Having a structured framework for crypto tax planning has made me the go-to person in our firm for these complex situations."
+  rating: 5
+  company: "Foster Tax Solutions"
+
+- name: "Michael Park, CFO"
+  title: "Chief Financial Officer"
+  review: "This course gave me the vocabulary and understanding to participate meaningfully in board discussions about digital assets. No longer do I feel left out when crypto comes up in strategic planning."
+  rating: 5
+  company: "Park Industries"
+
+- name: "Rachel Green, CFA"
+  title: "Investment Advisor"
+  review: "The module on crypto culture was surprisingly valuable. Understanding the social dynamics helps me better serve younger clients who are deeply involved in digital assets."
+  rating: 5
+  company: "Green Investment Services"
+
+- name: "Thomas Wilson, CPA"
+  title: "Partner"
+  review: "Clear, professional content without the hype. The regulatory compliance focus is exactly what accounting professionals need. My confidence in handling crypto-related client questions has increased dramatically."
+  rating: 5
+  company: "Wilson & Partners CPA"

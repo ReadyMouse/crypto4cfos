@@ -18,10 +18,32 @@ Private blockchains, on the other hand, are controlled by a single organization 
 
 The choice between public vs private; open vs opaque ledgers often comes down to the specific use case:
 
-- **Public Blockchains** is using the roadways, parks, and bridges built by the community. It's pubically accessible, although sometimes with a fee. (Just like a usage fee at a National Park.) There is no need to maintain infrastructure.
+- **Public Blockchains** is using the roadways, parks, and bridges built by the community. It's publicly accessible, although sometimes with a fee. (Just like a usage fee at a National Park.) There is no need to maintain infrastructure.
 
 - **Private Blockchain** is building your own private driveway, mowing the lawn, and building your own house. It's private and privately maintained. Perhaps a good choice for companies looking to own the whole software stack.
 
 - **Open ledgers** like Bitcoin are ideal for applications requiring transparency and auditability, such as public registries or systems where trust is built through visibility.
 
 - **Opaque ledgers** like Zcash are better suited for applications requiring privacy, such as personal transactions, business dealings, or situations where financial privacy is a priority.
+
+## Zero-Knowledge
+
+Zero-knowledge proofs are cryptographic methods that allow one party to prove they know something without revealing what they actually know. 
+
+> While the jargon is "zero-knowledge" it actually means "zero-extra-knowledge".
+
+It's the mathematical process by which you share the minimal amount of information to prove your point. In blockchain terms, this means you can prove a transaction is valid without disclosing the transaction details like amounts, sender, or receiver. Think of it like proving you're old enough to buy alcohol by showing an ID, but the bouncer only sees "over 21" without seeing your actual birthday, name, or address. This technology enables private blockchains and privacy coins like Zcash to validate transactions while keeping financial information confidential, combining the security benefits of public verification with the privacy of traditional banking.
+
+For example, consider the game Rock, Paper, Scissors. In a pure strategy competition, playing person (like an open ledger) reveals much more information about each competitor that isn't necessary for the match. 
+
+![Rock, Paper, Scissors zk Example](../images/RPS_zkCartoon.png)
+
+Mathematically, it's closer to: 
+
+![Arbitrary Object zk Example](../images/object_zkCartoon.png)
+
+### "Well, actually..."
+
+> Trigger warning: Math
+
+[TODO: Insert a discussion of mathematical backing of zkProofs]

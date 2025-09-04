@@ -6,6 +6,10 @@ Exchange trading remains one of the most accessible ways to generate returns in 
 - Technical Skill: Low
 - Financial Skill: High
 
+**Perp DEXs** (Perpetual Decentralized Exchanges) like [dYdX](https://www.dydx.xyz/), [Hyperliquid](https://hyperfoundation.org/), and [Lighter](https://lighter.xyz/) enable derivatives trading without centralized custody. These platforms offer perpetual futures contracts with leverage, allowing traders to go long or short on crypto assets while maintaining full control of their funds. Unlike traditional DEXs focused on spot trading, perp DEXs use advanced order book systems and cross-margin capabilities similar to centralized exchanges, but with the transparency and non-custodial benefits of DeFi.
+- Technical Skill: Intermediate to High
+- Financial Skill: High
+
 **Arbitrage** exploits price differences between exchanges or trading pairs. Simple arbitrage involves buying on one exchange and selling on another where the price is higher. More complex strategies include triangular arbitrage (exploiting price differences across three currencies) and statistical arbitrage (using mathematical models to identify price discrepancies). Automated arbitrage bots can execute these strategies at scale.
 - Technical Skill: Intermediate to High
 - Financial Skill: Intermediate to High

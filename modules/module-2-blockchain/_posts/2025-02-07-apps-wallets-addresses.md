@@ -2,7 +2,7 @@
 
 Okay, we have a ledger, how do we make entries? Let's talk about how users actually can interact with blockchain technology. The interface between humans and blockchain networks comes through applications, wallets, and addresses, each serving distinct but interconnected purposes.
 
-Transcations step-by-step:
+Transactions step-by-step:
 
 1. Key Generation: The wallet generates a matching pair of public and private keys.
 
@@ -14,7 +14,7 @@ Transcations step-by-step:
 
 Your crypto never leaves the blockchain, it simply changes ownership based on key authorization. Like how Santander has a digital record of funds, and is not moving physical dollar bills around from a box labeled "Mylo" to a box labeled "Fazio's Pizzeria". Crypto is merely updating the ledger, the listing of accounts; the funds aren't actually on your phone or in your wallet.  
 
-We will have a hands-on unit in [Module 3](../module-3-practical-usage/) to put this discussion into pratice.
+We will have a hands-on unit in [Module 3](../module-3-practical-usage/) to put this discussion into practice.
 
 ## Wallet Apps
 
@@ -80,7 +80,7 @@ The choice between digital and hardware wallets often depends on use case. Digit
 **Cryptocurrency addresses** are alphanumeric strings that serve as destinations for cryptocurrency transactions. Think of them as email addresses for cryptocurrency. They're public information that others can use to send you cryptocurrency, but they don't reveal your identity or give access to your funds.
 
 **Key Characteristics of Addresses:**
-1. **Public Information**: Addresses are meant to be shared with others
+1. **Public Information**: Addresses are meant to be shared publicly
 2. **Cryptographically Generated**: Derived from private keys using mathematical functions
 3. **Unique**: Each address is mathematically unique
 4. **Reusable**: Can receive multiple transactions

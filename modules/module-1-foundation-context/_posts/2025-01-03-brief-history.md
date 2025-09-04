@@ -12,9 +12,9 @@ The price of Bitcoin remained relatively stable around a few cents for the first
 
 The period from 2014 to 2017 marked a crucial turning point in cryptocurrency's development. Bitcoin was no longer alone — hundreds of alternative cryptocurrencies, or "altcoins," began to emerge, each with their own unique features and use cases. Ethereum, launched in 2015, introduced the concept of smart contracts — self-executing agreements written in code that could automate complex financial transactions.
 
-> A savy person might note that "smart contract" is a fancy word for "computer program".
+> A savvy person might note that "smart contract" is a fancy word for "computer program".
 
-To parallel Initial Public Offerings (IPOs): This era also saw the rise of Initial Coin Offerings (ICOs), a new fundraising mechanism where companies could sell digital tokens to raise capital. While some ICOs funded legitimate projects, others were little more than scams, perhaps fueling the common feeling that most of crypto is a scam or silly memes. As goes with any scams, this lead to increased regulatory scrutiny and the beginning of what would become a complex relationship between cryptocurrency and government oversight.
+To parallel Initial Public Offerings (IPOs): This era also saw the rise of Initial Coin Offerings (ICOs), a new fundraising mechanism where companies could sell digital tokens to raise capital. While some ICOs funded legitimate projects, others were little more than scams, perhaps fueling the common feeling that most of crypto is a scam or silly memes. As goes with any scams, this led to increased regulatory scrutiny and the beginning of what would become a complex relationship between cryptocurrency and government oversight.
 
 > Initial Public Offering <---> Initial Coin Offering
 

@@ -99,6 +99,12 @@ body {
 	font-size: 4em;
 }
 
+.jumbotron img {
+	max-width: 100px;
+	max-height: 100px;
+	filter: invert(1);
+}
+
 .content {
   margin-top: 1em;
 	line-height: 2;

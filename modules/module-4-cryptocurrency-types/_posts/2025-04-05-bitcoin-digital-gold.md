@@ -2,7 +2,7 @@
 
 Bitcoin, the first and most well-known cryptocurrency. First, it has a fixed supply of 21 million coins, making it inherently deflationary. This scarcity is built into the protocol and cannot be changed without consensus from the entire network. Second, Bitcoin uses a Proof of Work consensus mechanism, which we explored in Module 2, making it extremely secure but energy-intensive.
 
-The Bitcoin network processes approximately 7 transactions per second, which is significantly lower than traditional payment systems like Visa, which can handle thousands of transactions per second. This limitation has led to debates about Bitcoin's role as a medium of exchange versus a store of value. Recall, transcations are verfied in 10 minute increments. 
+The Bitcoin network processes approximately 7 transactions per second, which is significantly lower than traditional payment systems like Visa, which can handle thousands of transactions per second. This limitation has led to debates about Bitcoin's role as a medium of exchange versus a store of value. Recall, transactions are verfied in 10 minute increments. 
 
 Bitcoin often serves as a benchmark for the entire cryptocurrency market; when Bitcoin's price moves, it typically influences the prices of other cryptocurrencies. Additionally, Bitcoin's fixed supply and deflationary nature make it an interesting case study in monetary economics.
 

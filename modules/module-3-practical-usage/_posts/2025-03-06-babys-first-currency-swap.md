@@ -23,7 +23,7 @@ Swap out  $100 BTC for sheilded ZEC. Your ZEC address should start with a 'u'. S
 
 [TODO: Insert zcash block explorer and see what you see]
 
-Now's lets go look at what the [Block Explorer](https://blockexplorer.one/)  has to say about the transction. We can see the sender address and amount, but not the reciever address? [TODO: Make this sure is true.]
+Now's lets go look at what the [Block Explorer](https://blockexplorer.one/)  has to say about the transction. We can see the sender address and amount, but not the receiver address? [TODO: Make this sure is true.]
 
 **Check in:** 
 - Bank Account -> $200 BTC in Kraken/CashApp

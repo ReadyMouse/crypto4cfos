@@ -1,6 +1,6 @@
 # Why Financial Professionals Need to Understand Crypto
 
-It's not going away, crypto is here to stay. It's likely you, as a savy finanical professional, spent years learning the inner workings, tax and regulatory landscape for your industry. This is just an evolution from salt to gold to credit cards to crypto.
+It's not going away, crypto is here to stay. It's likely you, as a savvy financial professional, spent years learning the inner workings, tax and regulatory landscape for your industry. This is just an evolution from salt to gold to credit cards to crypto.
 
 I bet you're here because your clients are increasingly asking about it. Whether it's a client who has inherited cryptocurrency and needs help understanding the tax implications, a business owner considering accepting Bitcoin payments, or an investor looking to diversify their portfolio, financial professionals who can't provide informed guidance risk losing clients to competitors who can.
 
