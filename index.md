@@ -3,6 +3,25 @@ layout: index
 published: true
 ---
 <div style="text-align: center;">
+
+
+<h1>The Cryptocurrency Solarpunk Future</h1>
+
+    <p>From Mylo: The single idea that changes my mind from “crypto is just memes and scams” to “crypto is a powerful invention for financial sovereignty, equity, and freedom” was the idea that crypto provides finanical access without gatekeeping. When Robert Moses built bridges in Long Island that were intentionally too short for buses to pass under, it systematically disallowed those reliant on public transit to access the public beaches and communities on the far side. By way of the bridges, as a modal filter; only those wealthy enough to own a car could enjoy the otherwise free beaches.</p>
+
+    <br>
+
+    <p>When black families are denied homebuying loans in white neighborhoods, it is systemic racism in the finanical sector. Imagine instead a future where crypto and it’s decentralization at the core remove the too-short bridges and allow loans to pass through meeting eligibility critia and not rejected off skin-color. Cryptocurrency allow transactions without borders, removing the high Western Union fees of split families sending money across borders. Cryptocurrency is near instantenous (~10min) and it could entirely dismantle the pay-day loan shark system.</p>
+
+    <br>
+
+    <p>Cryptocurrency needs a cell phone to participate in a global economy for wealth building and transferral. That is a much much lower barrier of entry. All we really need is available education. (Our favorite community outreach partners <a href="https://techlearningcollective.com/donate/" target="_blank">TLC</a>)</p>
+
+    <br>
+
+    Thank you for coming to my TED talk. On with the show.
+
+
 <h1>Cryptocurrency is not going away</h1>
 </div>
 
