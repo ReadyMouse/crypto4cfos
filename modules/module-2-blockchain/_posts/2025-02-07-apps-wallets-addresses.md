@@ -20,11 +20,11 @@ We will have a hands-on unit in [Module 3](../module-3-practical-usage/) to put 
 
 **Cryptocurrency applications** are software programs that interact with blockchain networks. These applications provide user-friendly interfaces for complex blockchain operations, making cryptocurrency accessible to non-technical users.
 
-1. My favorite: **Zashi** is a specialized mobile wallet developed by the Electric Coin Company specifically for Zcash (ZEC). Unlike multi-currency wallets, Zashi focuses exclusively on shielded ZEC transactions, making it the premier choice for users who prioritize maximum financial privacy. The app features seamless integration with Coinbase for purchasing ZEC directly within the wallet and partnerships with Flexa for spending ZEC at thousands of retail locations. Zashi emphasizes true self-custody while maintaining a user-friendly interface accessible to cryptocurrency newcomers. The wallet also includes innovative privacy features like decentralized off-ramps for converting shielded ZEC to other cryptocurrencies without compromising transaction privacy. 
+1. My favorite: **[Zashi](https://electriccoin.co/zashi/)** is a specialized mobile wallet developed by the Electric Coin Company specifically for Zcash (ZEC). Unlike multi-currency wallets, Zashi focuses exclusively on shielded ZEC transactions, making it the premier choice for users who prioritize maximum financial privacy. The app features seamless integration with Coinbase for purchasing ZEC directly within the wallet and partnerships with Flexa for spending ZEC at thousands of retail locations. Zashi emphasizes true self-custody while maintaining a user-friendly interface accessible to cryptocurrency newcomers. The wallet also includes innovative privacy features like decentralized off-ramps for converting shielded ZEC to other cryptocurrencies without compromising transaction privacy. 
 
 1. **MetaMask** is perhaps the most popular cryptocurrency app, serving as both a wallet and a gateway to the Ethereum ecosystem. Think of MetaMask as a "browser for blockchain" that allows users to connect to decentralized applications, manage their cryptocurrency holdings, and interact with smart contracts. MetaMask stores private keys locally on the user's device, providing security while maintaining accessibility.
 
-1. **Edge Wallet** is another popular option for privacy-minded folks, particularly for mobile users. It supports multiple cryptocurrencies and provides features like built-in exchange functionality, allowing users to trade between different cryptocurrencies without leaving the app. Edge Wallet also emphasizes security through features like biometric authentication and encrypted storage.
+1. **[Edge](https://edge.app/) Wallet** is another popular option for privacy-minded folks, particularly for mobile users. It supports multiple cryptocurrencies and provides features like built-in exchange functionality, allowing users to trade between different cryptocurrencies without leaving the app. [Edge Wallet](https://edge.app/) also emphasizes security through features like biometric authentication and encrypted storage.
 
 > **Note** The term "wallet" can be very confusing, vague, and imprecise. Sometimes it refers to the App, sometimes the currency-specific container inside an App, and sometimes the address to that currency-specific container. 
 
@@ -32,14 +32,13 @@ We will have a hands-on unit in [Module 3](../module-3-practical-usage/) to put 
 
 Other notable apps include:
 - **Trust Wallet**: Mobile-first wallet with support for thousands of cryptocurrencies
-- **Exodus**: Desktop wallet with built-in exchange and portfolio tracking
 - **YWallet**: Multi-address capability with labeling features
 
 Each app has different security features, and different supported cryptocurrencies. 
 
 ## Hot vs Cold Wallets
 
-**Digital Wallets (Hot Wallets)** are software-based wallets that are connected to the internet (ex. Edge Wallet). They offer convenience and accessibility but come with increased security risks.
+**Digital Wallets (Hot Wallets)** are wallets that are readily available at all times. The hot-and-ready pizza-by-the-slice wallets. The wallets listed above (Zashi, Trust, Edge, Metamask) are all hot wallets. They offer convenience and accessibility but come with increased security risks.
 
 Advantages of Digital Wallets:
 - Easy to use and set up
@@ -54,12 +53,12 @@ Disadvantages of Digital Wallets:
 - Risk of losing funds if device is compromised
 - Limited protection against user error
 
-**Hardware Wallets (Cold Wallets)** are physical devices that store private keys offline, providing the highest level of security for cryptocurrency storage.
+**Hardware Wallets (Cold Wallets)** are offline wallets that require extra steps before transcating. This is the frozen-pizza of wallets. You have extra steps, like plugging into the network, re-syncing the blockchain, re-establishing keys, or something to make it accessible again. Thus providing the highest level of security for cryptocurrency storage, particularly for long-term storage.
 
 Advantages of Hardware Wallets:
 - Maximum security through offline storage
 - Protection against malware and hacking
-- Physical confirmation required for transactions
+- Physical access required for transactions
 - Long-term storage solution
 - Backup and recovery capabilities
 
@@ -71,9 +70,9 @@ Disadvantages of Hardware Wallets:
 - Limited integration with DeFi protocols
 
 **Popular Hardware Wallet:**
-- **Ledger**: Industry standard with support for thousands of cryptocurrencies
+- **[Ledger](https://www.ledger.com/)**: Industry standard with support for thousands of cryptocurrencies
 
-The choice between digital and hardware wallets often depends on use case. Digital wallets are suitable for active traders and DeFi users who need frequent access to their funds. Hardware wallets are better for long-term investors and those holding significant amounts of cryptocurrency.
+The choice between hot and cold wallets often depends on use case. Hot wallets are suitable for active traders and DeFi users who need frequent access to their funds. Cold wallets are better for long-term investors and those holding significant amounts of cryptocurrency.
 
 ## Addresses
 
