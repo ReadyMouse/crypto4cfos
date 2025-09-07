@@ -4,6 +4,8 @@
 
 Cryptocurrency taxation represents a complex area of tax law, involving multiple agencies, evolving regulations, and significant compliance burdens. Understanding the regulatory framework is essential for anyone involved in cryptocurrency trading. This will only breifly cover some high-level concepts.
 
+Turbo Tax's summary on [Crypto Taxes](https://turbotax.intuit.com/tax-tips/investments-and-taxes/your-cryptocurrency-tax-guide/L4k3xiFjB)
+
 ## United States Tax Framework
 
 **Internal Revenue Code and IRS Guidance:**
@@ -41,6 +43,8 @@ Cryptocurrency taxation represents a complex area of tax law, involving multiple
 - DeFi yield farming and liquidity provision
 - Hard forks and airdrops
 
+> Some wallets, like Edge, will allow you to export a .csv file with all your transcations. Pass this, along with a hefty Christmas bonus, to your accountant.
+
 ## Professional Tax Services for Cryptocurrency
 Given the complexity of cryptocurrency taxation, specialized services have emerged:
 
@@ -59,3 +63,4 @@ Given the complexity of cryptocurrency taxation, specialized services have emerg
 - All major accounting firms (Deloitte, PwC, EY, KPMG) now offer cryptocurrency tax services for institutional clients
 
 The cryptocurrency tax landscape continues evolving rapidly. Recent legislation like the Infrastructure Investment and Jobs Act (2021) expanded reporting requirements, while proposed bills could significantly change the tax treatment of digital assets. Given this complexity and the severe penalties for non-compliance, consulting with tax professionals who specialize in cryptocurrency is not just recommended - it's essential.
+

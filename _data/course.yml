@@ -1,9 +1,12 @@
 title: Crypto4CFOs
 description: A course for financial professionals to understand cryptocurrency and blockchain technology.
-# Modules that appear in the dropdown menu
-modules: ["module-1-foundation-context","module-2-blockchain", "module-3-practical-usage","module-4-cryptocurrency-types", "module-5-trading-exchanges", "module-6-defi","module-7-culture", "module-8-future-implications"]
-# Pages that appear as individual items BEFORE the modules dropdown
-menu_pages_before: ["introduction"]
-# Pages that appear as individual items AFTER the modules dropdown
-menu_pages_after: ["pricing", "contact"]
+
+# Main top menu pages
+menu_pages_before: ["introduction","dropdown", "pricing", "resources", "contact"]
+
+# Dropdown configurations (multiple allowed)
+dropdowns:
+  dropdown:
+    title: "Modules"
+    items: ["module-1-foundation-context","module-2-blockchain", "module-3-practical-usage","module-4-cryptocurrency-types", "module-5-trading-exchanges", "module-6-defi","module-7-culture", "module-8-future-implications"]
 

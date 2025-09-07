@@ -8,10 +8,54 @@
 
   <div class="navbar-collapse collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      <!-- Individual menu pages BEFORE modules dropdown -->
+      <!-- Process menu items -->
       {% for menu_page in site.data.course.menu_pages_before %}
         {% assign first_post = site.categories[menu_page]|reverse|first %}
-        {% if first_post %}
+        
+        {% comment %} Check if this is a dropdown menu {% endcomment %}
+        {% assign is_dropdown = false %}
+        {% assign dropdown_items = null %}
+        {% assign dropdown_title = null %}
+        
+        {% comment %} First check new dropdown configuration {% endcomment %}
+        {% if site.data.course.dropdowns[menu_page] %}
+          {% assign is_dropdown = true %}
+          {% assign dropdown_config = site.data.course.dropdowns[menu_page] %}
+          {% assign dropdown_items = dropdown_config.items %}
+          {% assign dropdown_title = dropdown_config.title %}
+        {% comment %} Fallback to legacy configuration {% endcomment %}
+        {% elsif menu_page == "dropdown" and site.data.course.dropdown %}
+          {% assign is_dropdown = true %}
+          {% assign dropdown_items = site.data.course.dropdown %}
+          {% assign dropdown_title = "Modules" %}
+        {% elsif menu_page == "dropdown2" and site.data.course.dropdown2 %}
+          {% assign is_dropdown = true %}
+          {% assign dropdown_items = site.data.course.dropdown2 %}
+          {% assign dropdown_title = "Resources" %}
+        {% endif %}
+        
+        {% if is_dropdown %}
+          <!-- Dropdown menu -->
+          <li class="nav-item dropdown py-2">
+            <a class="nav-link dropdown-toggle" href="#" id="{{ menu_page }}Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ dropdown_title }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="{{ menu_page }}Dropdown">
+              {% for item in dropdown_items %}
+                {% assign item_first_post = site.categories[item]|reverse|first %}
+                {% if item_first_post %}
+                  <a class="dropdown-item{% if page.categories[1] == item %} active{% endif %}" href="{{ site.baseurl }}{{ item_first_post.url }}">
+                    {{ item }}
+                  </a>
+                {% else %}
+                  <a class="dropdown-item{% if page.url contains item %} active{% endif %}" href="{{ site.baseurl }}/{{ item }}">
+                    {{ item }}
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </li>
+        {% elsif first_post %}
           <!-- This is a module/category -->
           <li class="nav-item py-2">
             <a class="nav-link{% if page.categories[1] == menu_page %} active{% endif %}" href="{{ site.baseurl }}{{ first_post.url }}">
@@ -27,21 +71,6 @@
           </li>
         {% endif %}
       {% endfor %}
-      
-      <!-- Modules dropdown -->
-      <li class="nav-item dropdown py-2">
-        <a class="nav-link dropdown-toggle" href="#" id="modulesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Modules
-        </a>
-        <div class="dropdown-menu" aria-labelledby="modulesDropdown">
-          {% for module in site.data.course.modules %}
-            {% assign first_post = site.categories[module]|reverse|first %}
-            <a class="dropdown-item{% if page.categories[1] == module %} active{% endif %}" href="{{ site.baseurl }}{{ first_post.url }}">
-              {{ module }}
-            </a>
-          {% endfor %}
-        </div>
-      </li>
       
       <!-- Individual menu pages AFTER modules dropdown -->
       {% for menu_page in site.data.course.menu_pages_after %}
